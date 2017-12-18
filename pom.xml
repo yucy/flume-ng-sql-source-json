@@ -2,8 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.keedio.flume.flume-ng-sources</groupId>
-    <artifactId>flume-ng-sql-source</artifactId>
-    <version>1.4.3</version>
+    <artifactId>flume-ng-sql-source-json</artifactId>
+    <version>1.0</version>
 
     <packaging>jar</packaging>
 
@@ -19,17 +19,6 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-
-    <repositories>
-        <repository>
-            <id>ot-snapshots</id>
-            <url>http://192.168.112.235:8081/nexus/content/repositories/ot-snapshots</url>
-        </repository>
-        <repository>
-            <id>ot-releases</id>
-            <url>http://192.168.112.235:8081/nexus/content/repositories/ot-releases</url>
-        </repository>
-    </repositories>
 
     <developers>
         <developer>
