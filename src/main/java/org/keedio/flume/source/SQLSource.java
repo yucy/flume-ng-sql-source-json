@@ -163,7 +163,7 @@ public class SQLSource extends AbstractSource implements Configurable, PollableS
             String s = new String(cbuf);
             // The reason for this number [len] minus one is that the source string adds the line_end
             event.setBody(s.substring(off, len-1).getBytes());
-            LOG.info("event body:{}||",new String(event.getBody()));
+//            LOG.info("event body:{}||",new String(event.getBody()));
 
             Map<String, String> headers;
             headers = new HashMap<String, String>();
